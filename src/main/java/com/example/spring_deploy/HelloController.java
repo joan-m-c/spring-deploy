@@ -21,7 +21,7 @@ public class HelloController {
         return "Hola Mundo que tal mundo";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                 <!doctype html>
